@@ -1,0 +1,175 @@
+
+
+body{
+  margin: 0;
+  text-align: center;
+}
+.backimg{
+  position: absolute;
+  bottom: 18vh;
+  left: 40vh;
+  width: 50vh;
+ 
+}
+button{
+  position: absolute;
+  top:35vh;
+  left: 1px;
+  width: 40vh;
+  height: 6vh;
+  border-radius: 7px;
+  background-color: hsl(278, 68%, 11%);
+  color: #fff;
+  margin-top: 10px;
+}
+.circle{
+  border-radius: 50%;
+  background-color:#fff;
+  width: 35px;
+  height: 35px;
+}
+.circlebase{
+  position: relative;
+    bottom: 73vh;
+        left: 32vh;
+}
+  .circletrans{
+    border-radius: 50%;
+    background:transparent;
+    border:1px solid white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 77vh;
+    left:38vh
+
+  }
+ 
+ .frontimg{
+    position: absolute;
+    bottom: 50vh;
+    left: 30vh;
+    
+  width: 50vh;
+      
+      
+ }
+#leftside{
+    background-image: url(images/bg-main-desktop.png);
+    width: 30%;
+    height: 100vh;
+    
+}
+#header{
+  
+  position: absolute;
+  top: 30%;
+  left:50%;
+  text-align: left;
+  font-size: 18px;
+  
+}
+
+label{
+  text-align:left;
+  font-size: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 2px;
+  margin-bottom:10px;
+}
+input{
+  border: 2px solid hsl(279, 6%, 55%);
+  border-radius: 7px;
+  margin-bottom: 20px;
+  width: 40vh;
+  height: 5vh;
+  font-size: 18px;
+}
+.order{
+    position: absolute;
+    right: 75vh;
+    bottom: 23vh;
+    background:transparent;
+    border: black;
+    color: black;
+}
+#result{
+  position: absolute;
+    bottom: 24vh;
+    right:78vh;
+    color: #fff;
+    text-align: left;
+    width: 80%;
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 22px;
+}
+#name2{
+  position: absolute;
+  bottom: 19vh;
+  right:86vh;
+  color: #fff;
+  width: 60%;
+  font-family:'Space Grotesk', sans-serif;
+  font-size: 16px;
+  
+  
+}
+#expdate,#year{
+  border: 2px solid hsl(279, 6%, 55%);
+  border-radius: 7px;
+  width: 10vh;
+
+}
+#month{
+  position: absolute;
+  bottom: 52vh;
+  left:69vh;
+  width: 6vh;
+color: #fff;
+font-size: 16px;
+font-family:'Space Grotesk', sans-serif;
+}
+#yr{
+  position: absolute;
+  bottom: 52vh;
+  left: 73.5vh;
+  color: #fff;
+  font-size: 16px;
+  font-family:'Space Grotesk', sans-serif;
+}
+#cvc{
+  width: 17vh;
+}
+#cv{
+  position: absolute;
+  top: 67vh;
+  left: 80vh;
+  color: #fff;
+  
+  
+
+}
+@media only screen and (max-width:700px) {
+    #leftside{
+      background-image: url(images/bg-main-mobile.png);
+      position: absolute;
+      height: 30vh;
+      width: 100%;
+    }
+    .backimg{
+      position: absolute;
+      bottom: 70vh;
+      width: 50vh;
+      
+    }
+    .frontimg{
+      z-index: 1;
+      top: 18vh;
+    }
+    #header{
+      position: absolute;
+      top: 45vh;
+          left: 28vh;
+
+    }
+   }

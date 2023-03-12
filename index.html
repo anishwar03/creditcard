@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+  <div id ="leftside" ></div>
+ <div class="front">
+ <img class="frontimg" src="images/bg-card-front.png" alt="front">
+ <div class=" circlebase circle"></div>
+ <div class="circletrans"></div>
+ 
+ <img class="backimg"  src="images/bg-card-back.png" alt="back">
+ </div>
+ 
+ </div>
+  
+
+  <div id ="header">
+    
+    <form >
+      <label  for="cname">CARDHOLDER NAME</label><br>
+      <input  type="text"  id="name1" name="cname" ><br>
+      
+      <label for="cno">CARD NUMBER</label><br>
+      <input  type="number"  id="cno" name="cno" placeholder="0000 0000 0000 0000" maxlength="16" ><br>
+      
+      <label  for="expdate">EXP. DATE[MM/YY]</label>&emsp;&ensp; <label>CVV</label><br>
+      <input type="number"  id="expdate" name="expdate" placeholder="MM" maxlength="2"  >
+      <input type="number" id="year" placeholder="YY" maxlength="4">
+    
+      <input type="number" id="cvc"   placeholder="e.g.123" maxlength="4">
+      <button  >Confirm</button>
+    </form>
+  
+      <span id="result" >0000 0000 0000 0000</span>
+      <span id="name2">name<span>
+       
+        
+  </div>
+  <!-- Completed state start -->
+  <span id ="month">00</span>
+  <span id ="yr">/00</span>
+        <span id="cv">000</span>
+  
+  <div class="attribution">
+     
+    Coded by <a href="mailto:anishwarmatam@gmail.com">Anishwar</a>.
+  </div>
+  <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>
